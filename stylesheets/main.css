@@ -26,6 +26,14 @@
     text-align: right;
   }
 
+  .photos_on_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    float: right;
+    padding: 15px;
+  }
+
   #landmark{
     font-weight: bold;
     color: white;
@@ -34,6 +42,7 @@
 
   #login{
     float: right;
+    font-size: .75em;
   }
 
   #body{
